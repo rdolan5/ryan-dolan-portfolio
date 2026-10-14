@@ -64,8 +64,6 @@ ul,ol{margin:0; padding:0; list-style:none}
 .hero__grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(240px,340px); gap:clamp(28px,6vw,80px); align-items:end}
 .eyebrow{margin:0; font:500 13px/1.5 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--ink3)}
 .hero__name{font:400 clamp(64px,11vw,148px)/.9 var(--serif); letter-spacing:-.02em; color:var(--navy); margin:18px 0 0}
-.hero__pitch{font:400 clamp(21px,2.3vw,28px)/1.35 var(--sans); color:var(--ink2); max-width:30ch; margin:22px 0 0; letter-spacing:-.01em}
-.hero__pitch em{font:italic 400 1.15em/1 var(--serif); color:var(--navy)}
 .status{display:inline-flex; align-items:center; gap:10px; margin:24px 0 0; padding:8px 14px 8px 12px;
   background:var(--gold-soft); border:1px solid #e5d290; border-radius:999px; font:600 13px/1 var(--mono);
   letter-spacing:.06em; text-transform:uppercase; color:var(--navy)}
